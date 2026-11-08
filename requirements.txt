@@ -1,0 +1,17 @@
+# Python 3.10. Install the CUDA build of torch first:
+#   pip install torch==2.14.0+cu126 --index-url https://download.pytorch.org/whl/cu126
+torch==2.14.0
+torchaudio==2.11.0
+transformers==4.46.3  # newer versions removed LlamaModel._update_causal_mask, which model/llm/llm.py uses
+pytorch-lightning==2.6.6
+safetensors==0.8.0
+einops==0.8.2
+einx==0.4.3
+x-transformers==2.31.11
+omegaconf==2.3.1
+PyYAML==6.0
+numpy==1.22.4
+soundfile==0.12.1
+sounddevice==0.5.6
+soxr==1.1.0
+tqdm==4.64.0

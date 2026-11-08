@@ -1,0 +1,34 @@
+# Python virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Model checkpoints / downloaded models
+checkpoints/
+*.ckpt
+*.pth
+*.pt
+*.bin
+*.safetensors
+
+# Personal voice recordings made by realtime_tse.py --record_enroll
+enroll_recorded.wav
+
+# Logs
+*.log
+
+# Environment / secrets
+.env
+.env.*
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
